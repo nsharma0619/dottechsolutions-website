@@ -1,0 +1,44 @@
+.bg-lightgray{
+    background-color: #f4f6ff;
+}
+.bg-white{
+    background-color: #ffffff;
+}
+@media (min-width:992px){
+    .col-lg-2-redefine{
+        flex:0 0 auto;
+        width:20%
+    }
+}
+
+
+
+@media (min-width:578px){
+    .CountSectionFontSizeNumber{
+        font-size: 350%;
+    }
+    .CountSectionFontSizeTitle{
+        font-size: 120%;
+    }
+    .bg-img-count-section{
+        background-image: url("../images/projectCountSection-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 325px;
+    }
+}
+
+@media (max-width:578px){
+    .CountSectionFontSizeNumber{
+        font-size: 230%;
+    }
+    .CountSectionFontSizeTitle{
+        font-size: 130%;
+    }
+    .bg-img-count-section{
+        background-image: url("../images/projectCountSection-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 460px;
+    }
+}
